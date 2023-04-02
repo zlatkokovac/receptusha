@@ -2,46 +2,101 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: #666 solid; /*debugging*/
+    /*border: #666 solid; /*debugging*/
 }
 
 .header-container {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    border: #666 solid; /*debugging*/
+    padding: 20px 120px;
+
+    /*border: #666 solid; /*debugging*/
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:900;
 }
 
 .header-upper {
     display: flex;
     justify-content: space-between;
-    border: #666 solid; /*debugging*/
+    /*border: #666 solid; /*debugging*/
 }
 
 .header-upper-logo {
-    color: aliceblue;
+    color: #F9FAF8;
+    font-size: 24px;
+    /*border: #666 solid; /*debugging*/
 }
 
 .header-upper-links {
     list-style-type: none;
-    display: flex; 
-    flex-direction: row;
+    display: flex;
+    justify-content: ;
+    /*border: #666 solid; /*debugging*/
+}
+
+a#header-link {
+    color: #f9faf8;
+    list-style-type: none;
+    padding-inline: 10px;
+    text-decoration: none;
+    /*border: #666 solid; /*debugging*/
+    
 }
 
 .header-bottom {
     display: flex; 
-    justify-content: center;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    margin: 100px 0px 100px 0px;
+    /*border: #666 solid; /*debugging*/
+    
 }
 
 .header-bottom-left{
     display: flex; 
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    
+    /*border: #999 solid; /*debugging*/
+    
+}
+
+.header-bottom-left-text {
+    color: #f9faf8;
+    font-size: 18px;
+    
+    /*border: #666 solid; /*debugging*/   
+}
+
+.header-bottom-left-button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 12px; font-weight: bold;
+    border-radius: 6px;
+    padding: 5px 15px;
+    
+}
+
+.header-bottom-mid {
+    display: flex;
+    /*border: #666 solid; /*debugging*/
+    width: 50px;
 }
 
 .header-bottom-right {
     display: flex;
+    flex: 1 1 auto;
+    height: 300px;
+    width: 50%;
+
+    border: #111 solid; /*debugging*/
+    
 }
 
-.header-bottom-left-text {
-    color: aliceblue;
-}
