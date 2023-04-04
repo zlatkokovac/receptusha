@@ -14,12 +14,6 @@
     /*border: #666 solid; /*debugging*/
 }
 
-h1 {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight:900;
-}
-
 .header-upper {
     display: flex;
     justify-content: space-between;
@@ -70,7 +64,7 @@ a#header-link {
 
 .header-bottom-left-text {
     color: #f9faf8;
-    font-size: 18px;
+    font-size: larger;
     
     /*border: #666 solid; /*debugging*/   
 }
@@ -78,7 +72,7 @@ a#header-link {
 .header-bottom-left-button {
     background-color: #3882f6;
     color: #F9FAF8;
-    font-size: 12px; font-weight: bold;
+    font-size: large; font-weight: bold;
     border-radius: 6px;
     padding: 5px 15px;
     
@@ -100,3 +94,33 @@ a#header-link {
     
 }
 
+.menu-container{
+    /*border: #870c0c solid; /*debugging*/
+    display: flex; flex-direction: column; align-items: center;
+    
+}
+
+.info-menu {
+    display: flex;flex-direction: row;flex-wrap: wrap;
+    
+}
+
+.info-menu-item {
+    /*border: #0eae51 solid; /*debugging*/
+    display: flex; flex-direction: column; align-items: center;
+    margin-bottom: 45px;
+}
+.info-menu-item-upper {
+    border: #3882f6 solid; /*debugging*/
+    display: flex; 
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 30px;
+}
+p#menu-text{
+    /*border: #f6a138 solid; /*debugging*/
+    padding: 10px; font-size: larger; word-wrap: break-word;
+    text-align: center;
+    width: 200px;
+}
